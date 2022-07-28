@@ -13,15 +13,22 @@ body {
 }
 
 .up-nav > div:first-child {
+    display: flex;
     margin-left:20px;
+    align-items: center;
 }
 
 .up-nav > div:nth-child(2) {
     margin-right:20px;
 }
 
+.home{
+    font-size: 20px;
+}
+
 ul{ 
      margin: 0;
+     margin-left: 40px;
      padding: 0;
 }
 
@@ -36,17 +43,13 @@ b {
     color: white;
 }
 
-b:hover {
-    color: gray;
-}
-
 a {
     text-decoration: none;
     color: white;
 }
 
-a:hover {
-    color: gray;
+b:hover {
+    color: lightgray;
 }
 
 .main {
@@ -68,5 +71,6 @@ h1 {
 }
 
 .main a:hover {
-    color: gray;
+    color: lightgray;
+
 }
